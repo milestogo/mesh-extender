@@ -39,7 +39,9 @@ $ssh root@${ip} /tmp/prepare-filesystems
 
 
 #!/bin/sh
-$ssh root@${ip} "( rm /tmp/*.ipk ; /etc/rc.d/S94servald stop ; umount -f /dos ; umount -f /serval ; umount -f /serval-var )"
+$ssh root@${ip} "( rm /tmp/*.ipk ; /etc/rc.d/S94servald stop ; )
+# make sure mount folders exist before we try to mount
+$ssh root@${ip} "( umount -f /dos; umount -f /serval; umount -f /serval-var; mkdir /dos; mkdir /serval; mkdir /serval-var )"
 mkdir -p tmp
 
   apE=`dd if=/dev/urandom bs=5 count=1 | hexdump -e '1/1 "%02X" ":" 1/1 "%02X" ":" 1/1 "%02X" ":" 1/1 "%02X" ":" 1/1 "%02X"'`
