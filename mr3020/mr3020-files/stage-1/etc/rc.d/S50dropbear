@@ -15,15 +15,17 @@ EXTRA_HELP="	killclients Kill ${NAME} processes except servers and yourself"
 
 dropbear_start()
 {
-	# Only run dropbear if there does not exist a file /dos/noroot
+	# Only allow password login if there does not exist a file /dos/noroot
 	# If starting, create the file, so that removing noroot only allows
-	# ssh to be available for one boot.
+	# password login for one boot.
 	passwd -l root # lock root
-        [ -e /dos/noroot ] && return 1
+        if [ -e /dos/noroot ]; then
+		allowPWssh=0
+	fi	
         touch /dos/noroot
-        echo "Remove this file to enable SSH login to the mesh extender as root:root." >/dos/noroot
+	# TODO: randomize this on each boot, writing new password to the file. 
+        echo "Remove this file to enable SSH login to the mesh extender as username root, password root." >/dos/noroot
         echo "This file is recreated on each reboot, so is effective for one boot only." >>/dos/noroot
-        passwd -u root # unlock root if allowing dropbear
 
 	append_ports()
 	{
@@ -64,9 +66,18 @@ dropbear_start()
 	local pid_file="/var/run/${NAME}.${PIDCOUNT}.pid"
 	local args="-P $pid_file"
 	local val
-	# A) password authentication
-	config_get_bool val "${section}" PasswordAuth 1
-	[ "${val}" -eq 0 ] && append args "-s"
+
+	if [ ${allowPWssh} -eq 0 ]; then #prevent password logins
+                append args "-g" && append args "-s"
+        else
+                passwd -u root # unlock root if allowing passwords
+                # A) password authentication
+                #config_get_bool val "${section}" PasswordAuth 1
+                #[ "${val}" -eq 0 ] && append args "-s"
+                # E) root password authentication
+                #config_get_bool val "${section}" RootPasswordAuth 1
+                #[ "${val}" -eq 0 ] && append args "-g"
+        fi
 	# B) listen interface and port
 	local port
 	local interface
@@ -80,9 +91,6 @@ dropbear_start()
 	# D) gatewayports
 	config_get_bool val "${section}" GatewayPorts 0
 	[ "${val}" -eq 1 ] && append args "-a"
-	# E) root password authentication
-	config_get_bool val "${section}" RootPasswordAuth 1
-	[ "${val}" -eq 0 ] && append args "-g"
 	# F) root login
 	config_get_bool val "${section}" RootLogin 1
 	[ "${val}" -eq 0 ] && append args "-w"
