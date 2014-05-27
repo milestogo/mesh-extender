@@ -1,0 +1,53 @@
+<html>
+<head><title>Mesh Extender Docs</title></head>
+<body>
+
+This page is for people who need to maintain a mesh extender device. 
+
+
+<h2>Deploying the mesh extender </h2>
+<ol>
+<li>Plug power into the mesh extender
+<li>Place the extender some place high up.  Higher is usually better.
+<li>Where possible, orient the antenna so that it is up & down.  If you can't, try to make sure that the long side of the antenna is facing towards other antennas, and not the pointy top. 
+<li> When done, unplug power
+</ol>
+
+<h2>Power</h2>
+The mesh extender is powered by USB. It draws about half the power of a charging mobile phone, so it is safe
+to plug into any USB port. 
+
+<h2>Replacing the USB stick</h2>
+Inside of the mesh extender is a small USB disk. It is safe to unscrew the lid on the bottom of the device, and pull on the grey ethernet plug. You can also use a knife blade or a paper clip to gently pull the grey plugs on the bottom of the circuit board out of the case. When the board is about 2cm out of the case, the USB drive can be pulled out of the right hand side. 
+TODO photos. 
+
+<h2>Advanced administration</h2>
+TODO: advanced modes and plugging things into ethernet. 
+<h3>Administration via SSH </h3>
+If you want to log in via SSH: take the USB key out of the device & put into your computer. 
+(TODO, rename this partition so we know its name on the disk). 
+The root password is in the noroot file. Read that file, then delete it and eject the USB disk. Put the USB disk back in the mesh extender and give it power.  You can now ssh into your default gatway (see, this isn't as easy as it looks). 
+<h3>Advanced SSH</h3>
+By default, the mesh extender only allows access with an SSH private key - and there isn't one installed. 
+If you have an ssh public key , add it to /etc/dropbear/authorized_keys. This will allow you to log in as root without a password. 
+You can log still log in with a password if you delete the noroot file from the USB stick. 
+
+
+<h2>What to do when it crashes</h2>
+Usually, unplugging & plugging in again is enough. Other problems are harder to fix. 
+
+<h3> Corrupted/broken USB disk </h3>. 
+Option A: Insert your spare USB stick. Option B is to reconfigure with a mac or linux laptop. 
+<p>
+Today there isn't any other way to bootstrap, because we need to delete everything on the USB key...
+ This is why loopback files on FAT partitions are so useful. 
+
+<h2>Hardware hacking and repair</h2>
+<A HREF="./3020/index.html">Local mirror of the openwrt wiki page on the TPLink 3020</a>. If you need to solder, this has all the information. 
+
+<h3>Broken USB jack</h3>
+USB jacks are somewhat fragile.Don't twist or hit the power cable entering the router. If you do break off the usb power jack, the easiest place to solder new power leads are the pins on the bottom of the jack that holds the USB disk. 
+
+
+</body>
+</html>

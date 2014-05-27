@@ -1,0 +1,2101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>TP-Link TL-MR3020    - OpenWrt Wiki</title>
+
+  <meta name="generator" content="DokuWiki Release 2009-02-14b">
+<meta name="robots" content="index,follow">
+<meta name="date" content="2014-04-24T15:17:10+0200">
+<meta name="keywords" content="2011Dec,FastEthernet,1NIC,1WNIC,no_switch,1Ant,USB2.0,1USB,Serial,integrated,802.11bgn,AR9331,ath9k,32RAM,4Flash,MIPS,MIPS32,24Kc,AR7241,AP121,portable_router">
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.openwrt.org/lib/exe/opensearch.php" title="- OpenWrt Wiki">
+<link rel="start" href="http://wiki.openwrt.org/">
+<link rel="contents" href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020?do=index" title="Index">
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="http://wiki.openwrt.org/feed.php">
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="http://wiki.openwrt.org/feed.php?mode=list&amp;ns=toh:tp-link">
+<link rel="alternate" type="text/html" title="Plain HTML" href="http://wiki.openwrt.org/_export/xhtml/toh/tp-link/tl-mr3020">
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="http://wiki.openwrt.org/_export/raw/toh/tp-link/tl-mr3020">
+<link rel="stylesheet" media="all" type="text/css" href="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/css_003.css">
+<link rel="stylesheet" media="screen" type="text/css" href="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/css.css">
+<link rel="stylesheet" media="print" type="text/css" href="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/css_002.css">
+<script type="text/javascript" charset="utf-8" src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/js.js"></script>
+<script type="text/javascript" charset="utf-8"><!--//--><![CDATA[//><!--
+addInitEvent(function(){
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1399868718 24.18.209.122';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+//--><!]]></script>
+
+  <link rel="shortcut icon" href="http://wiki.openwrt.org/lib/tpl/ameoto/images/favicon.ico">
+  <!--[if IE 6]><link rel="stylesheet" href="/lib/tpl/ameoto/ie6.css" type="text/css" media="all" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" href="/lib/tpl/ameoto/ie7.css" type="text/css" media="all" /><![endif]-->
+
+  <style>@-webkit-keyframes popyqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz {50% {-webkit-transform:scale(1.2);}100% {-webkit-transform:scale(1);}}@keyframes popyqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz {50% {-webkit-transform:scale(1.2);transform:scale(1.2);}100% {-webkit-transform:scale(1);transform:scale(1);}}#yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;border:solid 2px #fff !important;color:#fff !important;display:block !important;height:auto !important;margin:0 !important;opacity:0.9 !important;padding:7px 10px !important;position:fixed !important;visibility:visible !important;width:auto !important;z-index:2147483647 !important;-moz-border-radius:5px !important;border-radius:5px !important;-moz-box-shadow:0px 0px 20px #000 !important;box-shadow:0px 0px 20px #000 !important;}.yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz-blocked{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;color:#777 !important;display:inline !important;text-decoration:line-through !important;}#yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz span{background:transparent !important;padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;}#yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz div{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;border:0 !important;margin:0 !important;padding:0 !important;width:auto !important;letter-spacing:normal !important;font:13px Arial,Helvetica !important;text-align:left !important;text-shadow:none !important;text-transform:none !important;word-spacing:normal !important;}#yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz a{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;font-weight:normal !important;background:none !important;text-decoration:underline !important;color:#fff !important;}a#yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz-gear{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;text-decoration:none !important;position:absolute !important;display:none !important;font-size:20px !important;width:20px !important;height:20px !important;line-height:20px !important;text-align:center !important;background-color:rgba(255,255,255,.8) !important;background-image:url(resource://firefox-at-ghostery-dot-com/ghostery/data/images/gear.svg) !important;background-size:16px 16px !important;background-position:center center !important;background-repeat:no-repeat !important;text-decoration:none !important;}a#yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz-gear:hover{-webkit-animation-name:popyqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz !important;animation-name:popyqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz !important;-webkit-animation-duration:0.3s !important;animation-duration:0.3s !important;}#yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz:hover #yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz-gear{text-decoration:none !important;display:inline-block !important;}@media print{#yqyjrtealtzmwgysdkhyebnodpmaxkrwvwhgz{display:none !important;}}</style><script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script></head>
+
+<body>
+<div class="container">
+	<h1 class="bannerhl"><a id="banner" name="dokuwiki__top" href="http://openwrt.org/">OpenWrt</a></h1>
+	<div class="whoami">
+			</div>
+	<ul id="navigation">
+		<li><a href="https://dev.openwrt.org/">Development</a></li>
+		<li><a href="http://wiki.openwrt.org/doc/start">Documentation</a></li>
+		<li><a href="http://downloads.openwrt.org/">Downloads</a></li>
+		<li><a href="http://wiki.openwrt.org/">Wiki</a></li>
+		<li><a href="http://forum.openwrt.org/">Forum</a></li>
+	</ul>
+	<div id="feedback"></div>
+	<div class="sidebar">
+
+		<div>
+			<h3>Wiki Search</h3>
+			<form action="http://wiki.openwrt.org/" accept-charset="utf-8" class="search" id="dw__search"><div class="no"><input name="do" value="search" type="hidden"><input id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" type="text"><input value="Search" class="button" title="Search" type="submit"><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>		</div>
+
+		<div>
+			<h3>Actions</h3>
+			<ul class="actions">
+				<li><a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020?do=edit&amp;rev=" class="action source" accesskey="v" rel="nofollow">Show pagesource</a></li>
+				<li><a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020?do=revisions" class="action revisions" accesskey="o" rel="nofollow">Old revisions</a></li>
+				<li class="separate"><a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020?do=index" class="action index" accesskey="x" rel="nofollow">Index</a></li>
+				<li><a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020?do=recent" class="action recent" accesskey="r" rel="nofollow">Recent changes</a></li>
+				<li class="separate"></li>
+				<li></li>
+				<li><a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020?do=login&amp;sectok=31a0239f540fac564845c87f2186dfbb" class="action login" rel="nofollow">Login</a></li>
+			</ul>
+		</div>
+
+		<div>
+			<h3>Donate</h3>
+			<a href="http://flattr.com/thing/642631/OpenWrt" target="_blank"></a>
+		</div>
+
+		<div>
+			<h3>Translations</h3>
+			        <ul class="actions" style="padding-left:24px">
+<li style="list-style-image:url(/lib/plugins/multilingual/flags/en.gif)"><span class="curid"><a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020" class="wikilink1" title="toh:tp-link:tl-mr3020">TP-Link TL-MR3020</a></span></li>
+<li style="list-style-image:url(/lib/plugins/multilingual/flags/ru.gif)"><a href="http://wiki.openwrt.org/ru/toh/tp-link/tl-mr3020" class="wikilink1" title="ru:toh:tp-link:tl-mr3020">TP-Link TL-MR3020</a></li>
+        </ul>
+		</div>
+
+	</div>
+	<div class="content">
+				<div class="breadcrumbs">
+			<span class="bchead">You are here: </span><a href="http://wiki.openwrt.org/start" title="start">OpenWrt Wiki</a> » <a href="http://wiki.openwrt.org/toh/start" title="toh:start">Table of Hardware</a> » <a href="http://wiki.openwrt.org/toh/tp-link/start" title="toh:tp-link:start">TP-Link</a> » <a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020" title="toh:tp-link:tl-mr3020">TP-Link TL-MR3020</a>		</div>
+		
+		<!-- wikipage start -->
+		<!-- TOC START -->
+<div class="toc">
+<div class="tocheader toctoggle" id="toc__header">Table of Contents</div>
+<div id="toc__inside">
+
+<ul class="toc">
+<li class="level1"><div class="li"><span class="li"><a href="#supported.versions" class="toc">Supported Versions</a></span></div></li>
+<li class="level1"><div class="li"><span class="li"><a href="#features" class="toc">Features</a></span></div>
+<ul class="toc">
+<li class="clear">
+
+<ul class="toc">
+<li class="level3"><div class="li"><span class="li"><a href="#power.consumption" class="toc">Power consumption</a></span></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"><span class="li"><a href="#installation" class="toc">Installation</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#method.using.web.gui.recommended" class="toc">Method Using Web GUI (Recommended)</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#manual.method.using.serial.console.and.tftp.experts" class="toc">Manual Method Using Serial Console and TFTP (Experts)</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#oem.mass.flashing" class="toc">OEM Mass Flashing</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#install.snapshot.image" class="toc">Install Snapshot Image</a></span></div>
+<ul class="toc">
+<li class="level3"><div class="li"><span class="li"><a href="#vi.editor.basic.using.for.beginners" class="toc">VI editor basic using ( for beginners )</a></span></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"><span class="li"><a href="#failsafe.mode" class="toc">Failsafe Mode</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#downgrade.attitute.adjustment.from.trunk" class="toc">Downgrade Attitute Adjustment from Trunk</a></span></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><span class="li"><a href="#restoring.original.firmware" class="toc">Restoring Original Firmware</a></span></div></li>
+<li class="level1"><div class="li"><span class="li"><a href="#basic.configuration" class="toc">Basic Configuration</a></span></div></li>
+<li class="level1"><div class="li"><span class="li"><a href="#original.flash.layout" class="toc">Original Flash Layout</a></span></div></li>
+<li class="level1"><div class="li"><span class="li"><a href="#hardware" class="toc">Hardware</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#opening.the.case" class="toc">Opening the Case</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#internal.pictures" class="toc">Internal Pictures</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#hardware.summary" class="toc">Hardware summary</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#serial.console" class="toc">Serial Console</a></span></div>
+<ul class="toc">
+<li class="level3"><div class="li"><span class="li"><a href="#u-boot.bootloader.console" class="toc">U-Boot Bootloader Console</a></span></div></li>
+<li class="level3"><div class="li"><span class="li"><a href="#linux.console" class="toc">Linux Console</a></span></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><span class="li"><a href="#gpios" class="toc">GPIOs</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#leds" class="toc">LEDs</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#buttons" class="toc">Buttons</a></span></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><span class="li"><a href="#bootloader.mods" class="toc">Bootloader Mods</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#u-boot.1.1.4.modification.for.routers" class="toc">U-Boot 1.1.4 modification for routers</a></span></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><span class="li"><a href="#hardware.hacks" class="toc">Hardware Hacks</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#external.antenna.hack" class="toc">External Antenna Hack</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#adding.i2c.bus" class="toc">Adding I2C Bus</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#usb.hub.hack" class="toc">USB Hub Hack</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#gpio.pinout" class="toc">GPIO Pinout</a></span></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><span class="li"><a href="#usb.port.and.monitoring.serial.console.via.usb-serial" class="toc">USB port and monitoring Serial Console via USB-Serial</a></span></div></li>
+<li class="level1"><div class="li"><span class="li"><a href="#boot.log" class="toc">Boot log</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#factory.boot.log" class="toc">Factory Boot Log</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#openwrt.boot.log.and.info" class="toc">OpenWrt Boot Log and Info</a></span></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><span class="li"><a href="#link.dump" class="toc">Link Dump</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#relevant.forum.links" class="toc">Relevant Forum Links</a></span></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><span class="li"><a href="#custom.ipv6.image.for.mr3020.v1.7" class="toc">Custom IPv6 image for mr3020 (v1.7)</a></span></div></li>
+<li class="level1"><div class="li"><span class="li"><a href="#tags" class="toc">Tags</a></span></div></li></ul>
+</div>
+</div>
+<!-- TOC END -->
+
+
+
+<h1><a name="tp-link.tl-mr3020" id="tp-link.tl-mr3020">TP-Link TL-MR3020</a></h1>
+<div class="level1">
+
+<p>
+See also <a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3040" class="wikilink1" title="toh:tp-link:tl-mr3040">TL-MR3040</a> and <a href="http://wiki.openwrt.org/toh/tp-link/tl-wr703n" class="wikilink1" title="toh:tp-link:tl-wr703n">TL-WR703N</a> or <a href="http://wiki.openwrt.org/toh/tp-link/tl-mr10u" class="wikilink1" title="toh:tp-link:tl-mr10u">TP-Link TL-MR10U</a>, <a href="http://wiki.openwrt.org/toh/tp-link/tl-mr11u" class="wikilink1" title="toh:tp-link:tl-mr11u">TP-Link TL-MR11U</a>, <a href="http://wiki.openwrt.org/toh/tp-link/tl-mr12u" class="wikilink1" title="toh:tp-link:tl-mr12u">TP-Link TL-MR12U</a> and <a href="http://wiki.openwrt.org/toh/tp-link/tl-mr13u" class="wikilink1" title="toh:tp-link:tl-mr13u">TP-Link TL-MR13U</a><br>
+ <strong><code>Note:</code></strong> Many of these routers are marketed as a <em>"3G travel router"</em> but  <strong>none actually include a 3G modem</strong>
+ - the marketing term rather means that the OEM firmware supports a 
+certain range of 3G/4G modems to be externally connected to USB because 
+it contains drivers for those USB modems! Ignore that, because with 
+OpenWrt ANY router with USB supports 3G/4G hardware … <img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/icon_wink.gif" class="middle" alt=";-)">
+</p>
+
+<p>
+<a href="http://wiki.openwrt.org/_detail/media/toh/tp-link/tl-mr3020/tl-mr3020-02.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="media:toh:tp-link:tl-mr3020:tl-mr3020-02.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/tl-mr3020-02.jpg" class="media" title="TP-Link TL-MR3020" alt="TP-Link TL-MR3020" width="400"></a>
+</p>
+
+<p>
+The router is powered through a mini-USB socket stub (5V) and comes with a USB power adapter.
+</p>
+
+</div>
+
+<h2><a name="supported.versions" id="supported.versions">Supported Versions</a></h2>
+<div class="level2">
+<table class="inline">
+<tbody><tr class="row0">
+	<th class="col0" colspan="1" rowspan="1">Model Version</th>
+	<th class="col1" colspan="1" rowspan="1">Launch Date</th>
+	<th class="col2" colspan="1" rowspan="1">OpenWrt Version Supported</th>
+	<th class="col3" colspan="1" rowspan="1">Model Specific Notes</th>
+</tr>
+<tr class="row1">
+	<td class="col0" colspan="1" rowspan="1">v1.0</td>
+	<td class="col1" colspan="1" rowspan="1">2011-12</td>
+	<td class="col2" colspan="1" rowspan="1">Trunk (<a href="https://dev.openwrt.org/changeset/29651" class="urlextern" title="https://dev.openwrt.org/changeset/29651" rel="nofollow">r29651</a>)</td>
+	<td class="col3" colspan="1" rowspan="1">AR9331 chipset</td>
+</tr>
+<tr class="row2">
+	<td class="col0" colspan="1" rowspan="1">v1.4</td>
+	<td class="col1" colspan="1" rowspan="1">2012-01</td>
+	<td class="col2" colspan="1" rowspan="1">Trunk  (<a href="https://dev.openwrt.org/changeset/29763" class="urlextern" title="https://dev.openwrt.org/changeset/29763" rel="nofollow">r29763</a>, probably earlier)</td>
+	<td class="col3" colspan="1" rowspan="1">AR9331 chipset</td>
+</tr>
+<tr class="row3">
+	<td class="col0" colspan="1" rowspan="1">v1.6</td>
+	<td class="col1" colspan="1" rowspan="1">2012-03</td>
+	<td class="col2" colspan="1" rowspan="1">Trunk  (<a href="https://dev.openwrt.org/changeset/30753" class="urlextern" title="https://dev.openwrt.org/changeset/30753" rel="nofollow">r30753</a>, probably earlier)</td>
+	<td class="col3" colspan="1" rowspan="1">AR9331 chipset</td>
+</tr>
+<tr class="row4">
+	<td class="col0" colspan="1" rowspan="1">v1.7</td>
+	<td class="col1" colspan="1" rowspan="1">2012-05</td>
+	<td class="col2" colspan="1" rowspan="1">12.09-RC1, Trunk  (<a href="https://dev.openwrt.org/changeset/32786" class="urlextern" title="https://dev.openwrt.org/changeset/32786" rel="nofollow">r32786</a>)</td>
+	<td class="col3" colspan="1" rowspan="1">AR9331 chipset</td>
+</tr>
+<tr class="row5">
+	<td class="col0" colspan="1" rowspan="1">v1.8</td>
+	<td class="col1 leftalign" colspan="1" rowspan="1">??</td>
+	<td class="col2" colspan="1" rowspan="1">12.09-RC1 (tested), Trunk (tested)</td>
+	<td class="col3" colspan="1" rowspan="1">AR9331-AL1A; internal serial port has no pins, only solder-pads (P1 clearly visible)</td>
+</tr>
+<tr class="row6">
+	<td class="col0" colspan="1" rowspan="1">v1.9</td>
+	<td class="col1 leftalign" colspan="1" rowspan="1">??</td>
+	<td class="col2 leftalign" colspan="1" rowspan="1">12.09 (tested)</td>
+	<td class="col3" colspan="1" rowspan="1">AR9331-AL1A</td>
+</tr>
+</tbody></table>
+<p>
+
+The current release
+OEM source code available at: <a href="http://www.tp-link.com/resources/gpl/150Router.rar" class="urlextern" title="http://www.tp-link.com/resources/gpl/150Router.rar" rel="nofollow">http://www.tp-link.com/resources/gpl/150Router.rar</a>
+</p>
+
+</div>
+
+<h2><a name="features" id="features">Features</a></h2>
+<div class="level2">
+<table class="inline">
+<tbody><tr class="row0">
+	<th class="col0" colspan="1" rowspan="1">CPU</th>
+	<th class="col1" colspan="1" rowspan="1">Ram</th>
+	<th class="col2" colspan="1" rowspan="1">Flash</th>
+	<th class="col3" colspan="1" rowspan="1">Network</th>
+	<th class="col4" colspan="1" rowspan="1">USB</th>
+	<th class="col5" colspan="1" rowspan="1">Serial</th>
+	<th class="col6" colspan="1" rowspan="1">JTag</th>
+</tr>
+<tr class="row1">
+	<td class="col0" colspan="1" rowspan="1">Atheros AR7240@400MHz</td>
+	<td class="col1" colspan="1" rowspan="1">32MiB</td>
+	<td class="col2" colspan="1" rowspan="1">4MiB</td>
+	<td class="col3" colspan="1" rowspan="1">1 x 100MBit</td>
+	<td class="col4" colspan="1" rowspan="1">1 x 2.0</td>
+	<td class="col5" colspan="1" rowspan="1">Yes</td>
+	<td class="col6" colspan="1" rowspan="1">No</td>
+</tr>
+</tbody></table><ul>
+<li class="level1"><div class="li"> SoC: Atheros AR9330 rev 1</div>
+</li>
+<li class="level1"><div class="li"> 802.11 b/g/n 150 Mbps</div>
+</li>
+<li class="level1"><div class="li"> Powered via USB B-Mini (5 Volts)</div>
+</li>
+<li class="level1"><div class="li"> Tiny form factor</div>
+<ul>
+<li class="level2"><div class="li"> 5.7 cm x 5.7 cm PCB </div>
+</li>
+<li class="level2"><div class="li"> 6.7 cm x 7.4 cm x 2.2 cm case </div>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+<h4><a name="power.consumption" id="power.consumption">Power consumption</a></h4>
+<div class="level4">
+
+<p>
+
+Input voltage: the router will function correctly when powered with 
+voltages as low as 3.3 Volts (determined experimentally) instead of 5 V 
+USB-Power. Thus, it can be powered directly from one single Li-Ion 
+battery (which usually starts fully charged at 4.2 V and has a nominal 
+voltage of 3.7) without the need for an external 5 V adapter.
+</p>
+
+<p>
+This router is standardly powered via USB at 5V. The voltage regulators'
+ input voltage should be at least between 3.7V - 5.5V, but not over 
+5.5V. The device will get damaged at too high voltages*. Maximum current
+ draw at 5V is 255mA (Active Download + LAN + WLAN + USBboot), average 
+current draw with WiFi is 125mA, idle is 68mA. Hence the average router 
+power consumption is 0.6W, which is incredibly low.
+</p>
+
+<p>
+Power consumption will be higher if a USB device is attached to its USB port! 
+More information and a rough diagram here <a href="https://apollo.open-resource.org/lab:argus" class="urlextern" title="https://apollo.open-resource.org/lab:argus" rel="nofollow">Interesting webpage with more data about power consumption and so on</a>
+</p>
+
+</div>
+
+<h2><a name="installation" id="installation">Installation</a></h2>
+<div class="level2">
+
+<p>
+
+Currently the TL-MR3020 is supported in the stable OpenWrt version Attitude Adjustement.
+</p>
+
+<p>
+So you can either download a daily-built snapshot or build your own from sources.
+
+</p>
+<ul>
+<li class="level1"><div class="li"> Download the latest Attitude Adjustment from <a href="http://downloads.openwrt.org/attitude_adjustment/12.09/ar71xx/generic/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin" class="urlextern" title="http://downloads.openwrt.org/attitude_adjustment/12.09/ar71xx/generic/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin" rel="nofollow">here</a> (recommended)</div>
+</li>
+<li class="level1"><div class="li"> Download the lastest trunk snapshot <a href="http://downloads.openwrt.org/snapshots/trunk/ar71xx/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin" class="urlextern" title="http://downloads.openwrt.org/snapshots/trunk/ar71xx/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin" rel="nofollow">here</a> (risky)</div>
+</li>
+</ul>
+
+<p>
+
+<img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/48px-dialog-warning.png" class="media" alt=""> <strong>WARNING</strong>: Snapshot images are always risky. Check the forum discussion for latest opinions on available images.
+</p>
+
+</div>
+
+<h3><a name="method.using.web.gui.recommended" id="method.using.web.gui.recommended">Method Using Web GUI (Recommended)</a></h3>
+<div class="level3">
+
+<p>
+
+Connect to the TL-MR3020 router via Ethernet cable at IP address <strong>192.168.0.254</strong>, log in to the router's web <acronym title="Graphical User Interface">GUI</acronym> (default login/password: <strong>admin</strong> / <strong>admin</strong>) and overwrite the factory firmware by installing the <strong>openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin</strong> firmware image like a regular firmware update.
+</p>
+
+<p>
+Wait for the progress bar to finish twice (the device will reset itself in the process), and <span class="curid"><a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020#basic.configuration" class="wikilink1" title="toh:tp-link:tl-mr3020">proceed with basic configuration</a></span> as with any fresh OpenWRT install.
+</p>
+
+<p>
+Web <acronym title="Graphical User Interface">GUI</acronym> upload has 
+been confirmed to work with v1.0, v1.4, v1.6, v1.7, v1.8 and 1.9 
+hardware revisions and requires no serial access unless something goes 
+wrong.
+</p>
+
+<p>
+See <a href="https://forum.openwrt.org/viewtopic.php?pid=154203#p154203" class="urlextern" title="https://forum.openwrt.org/viewtopic.php?pid=154203#p154203" rel="nofollow">forum</a> if you encounter problems.
+</p>
+
+</div>
+
+<h3><a name="manual.method.using.serial.console.and.tftp.experts" id="manual.method.using.serial.console.and.tftp.experts">Manual Method Using Serial Console and TFTP (Experts)</a></h3>
+<div class="level3">
+
+<p>
+
+To install OpenWrt from the U-Boot console, you need to install a TFTP server on your computer (<strong>tftp-hpa</strong> is recommended).
+</p>
+
+<p>
+Then download OpenWrt factory image to /srv/tftp (for example), and execute the TFTP server by typing <strong>tftpd -l -s /srv/tftp</strong>.
+</p>
+
+<p>
+
+Connect the TL-MR3020 using a serial console and power up the TL-MR3020.
+</p>
+
+<p>
+After a 1-2 seconds it shows <strong>Autobooting in 1 seconds</strong>, when displaying this enter <strong>tpl</strong> immediately.
+</p>
+
+<p>
+</p><pre class="code">Using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ag7240_enet_initialize...
+No valid address in Flash. Using fixed address
+No valid address in Flash. Using fixed address
+: cfg1 0x5 cfg2 0x7114
+eth0: 00:03:7f:09:0b:ad
+ag7240_phy_setup
+eth0 up
+: cfg1 0xf cfg2 0x7214
+eth1: 00:03:7f:09:0b:ad
+athrs26_reg_init_lan
+ATHRS26: resetting s26
+ATHRS26: s26 reset done
+ag7240_phy_setup
+eth1 up
+eth0, eth1
+Autobooting in 1 seconds
+[type tpl here]</pre>
+
+<p></p>
+
+<p>
+You will get a U-Boot-console, it shows as <strong>hornet&gt;</strong>, and you must enter the following commands:
+</p>
+
+<p>
+</p><pre class="code">hornet&gt; setenv ipaddr &lt;device-ip, eg. 192.168.1.111&gt;
+hornet&gt; setenv serverip &lt;server-ip, eg. 192.168.1.100&gt;
+hornet&gt; tftpboot 0x80000000 openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin
+eth1 link down
+dup 1 speed 100
+Using eth0 device
+TFTP from server 192.168.1.100; our IP address is 192.168.1.111
+Filename 'openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin'.
+Load address: 0x80000000
+Loading: #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         ######################################################
+done
+Bytes transferred = 3932160 (3c0000 hex)
+hornet&gt; erase 0x9f020000 +0x3c0000
+
+First 0x2 last 0x3d sector size 0x10000                                                                                                        61
+Erased 60 sectors
+hornet&gt; cp.b 0x80000000 0x9f020000 0x3c0000
+Copy to Flash... write addr: 9f020000
+
+done
+hornet&gt; bootm 9f020000
+</pre>
+
+<p></p>
+
+</div>
+
+<h3><a name="oem.mass.flashing" id="oem.mass.flashing">OEM Mass Flashing</a></h3>
+<div class="level3">
+
+<p>
+
+Flashing hundreds of devices using the web interface can be a real pain. You can use this shell script to automate it:
+</p><pre class="code">#!/bin/bash
+
+# Pass the firmware file to be flashed as the first parameter.
+#
+# The second curl call will time out, but it's expected. Once the
+# script exits you can unplug the ethernet cable and proceed to the
+# next router, but KEEP each router ON POWER until the new image is
+# fully written! When flashing is done the router automatically
+# reboots (as shown by all the leds flashing once).
+
+curl \
+  --user admin:admin \
+  --user-agent 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0) Gecko/20100101 Firefox/12.0' \
+  --referer 'http://192.168.0.254/userRpm/SoftwareUpgradeRpm.htm' \
+  --form "Filename=@$1" -F 'Upgrade=Upgrade' \
+  http://192.168.0.254/incoming/Firmware.htm &gt; /dev/null
+
+sleep 1
+
+curl \
+  --max-time 2 \
+  --user admin:admin \
+  --user-agent 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0) Gecko/20100101 Firefox/12.0' \
+  --referer 'http://192.168.0.254/incoming/Firmware.htm' \
+  http://192.168.0.254/userRpm/FirmwareUpdateTemp.htm &gt;  /dev/null
+</pre>
+
+<p></p>
+
+</div>
+
+<h3><a name="install.snapshot.image" id="install.snapshot.image">Install Snapshot Image</a></h3>
+<div class="level3">
+
+<p>
+
+If you install openwrt from trunk, it isn't include LuCi. You need 
+configure wireless network from telnet for install Luci. You will need 
+already working wireless internet. 
+ - For beginners need to learn basic control of vi editor
+</p>
+
+<p>
+
+For this example:
+</p>
+
+<p>
+Main router:
+</p>
+<pre class="code">Ip:         '192.168.2.1'
+Ssid:       'Example-network'
+Bssid:      '11:11:11:11:11:11'
+Encryption: 'WPA2 - PSK'
+Key:        'PaSSworD'
+Channel:    '9'</pre>
+
+<p>
+( You need fill these by your network properities )
+</p>
+
+<p>
+Terminal program:
+</p>
+<pre class="code">Putty</pre>
+
+<p>
+
+After install trunk image wait few minutes then recycle power router and set your computer ip address to:
+</p>
+
+<p>
+</p><pre class="code">ip:      192.168.1.2
+subnet:  255.255.255.0
+gateway: 192.168.1.1
+</pre>
+
+<p></p>
+
+<p>
+Start your terminal and connect 192.168.1.1 via telnet ( port 23 ). 
+Right now LAN INTERFACE include wireless too. We need to set wireless to
+ <acronym title="Wide Area Network">WAN</acronym> interface. Change wireless configuration below example.
+</p>
+
+<p>
+</p><pre class="code">vi /etc/config/wireless
+
+config wifi-device  radio0
+        option type     mac80211
+        option channel  9
+        option hwmode   11ng
+        option path     'platform/ar933x_wmac'
+        option htmode   HT20
+        list ht_capab   SHORT-GI-20
+        list ht_capab   SHORT-GI-40
+        list ht_capab   RX-STBC1
+        list ht_capab   DSSS_CCK-40
+        option disabled 0
+        option txpower 27
+
+config wifi-iface
+        option device      radio0
+        option network     wan
+        option mode        sta
+        option ssid        Example-network
+        option encryption  psk2
+        option bssid       11:11:11:11:11:11
+        option key         PaSSworD
+</pre>
+
+<p></p>
+
+<p>
+Wireless setup completed now we need to get ip <acronym title="Wide Area Network">WAN</acronym> interface via main router dhcp server. Set your network config like below example.
+</p>
+
+<p>
+</p><pre class="code">vi /etc/config/network
+
+config interface 'loopback'
+        option ifname 'lo'
+        option proto 'static'
+        option ipaddr '127.0.0.1'
+        option netmask '255.0.0.0'
+
+config globals 'globals'
+        option ula_prefix 'fd48:931d:0f42::/48'
+
+config interface 'lan'
+        option ifname 'eth0'
+        option type 'bridge'
+        option proto 'static'
+        option ipaddr '192.168.1.1'
+        option netmask '255.255.255.0'
+        option ip6assign '60'
+
+config interface 'wan'
+        option proto    'dhcp'
+        option _orig_ifname radio0
+        option _orig_bridge false
+</pre>
+
+<p></p>
+
+<p>
+Reboot your router
+</p>
+
+<p>
+</p><pre class="code">reboot
+</pre>
+
+<p></p>
+
+<p>
+Your terminal season will be closed. you need reconnect to router.
+</p>
+
+<p>
+test your router if your router properly connected internet you should something like below lines:
+</p>
+
+<p>
+</p><pre class="code">ping -c3 www.google.com
+PING www.google.com (xxx.xxx.xxx.xxx): 56 data bytes
+64 bytes from xxx.xxx.xxx.xxx: seq=0 ttl=52 time=88.295 ms
+64 bytes from xxx.xxx.xxx.xxx: seq=1 ttl=52 time=87.783 ms
+64 bytes from xxx.xxx.xxx.xxx: seq=2 ttl=52 time=87.503 ms
+
+--- www.google.com ping statistics ---
+3 packets transmitted, 3 packets received, 0% packet loss
+round-trip min/avg/max = 87.503/87.860/88.295 ms
+</pre>
+
+<p></p>
+
+<p>
+Now you can install Luci and enable it by below commands:
+</p>
+
+<p>
+</p><pre class="code">opkg update
+opkg install luci
+/etc/init.d/uhttpd enable
+/etc/init.d/uhttpd start
+</pre>
+
+<p></p>
+
+<p>
+Reboot your router one last time
+</p>
+
+<p>
+</p><pre class="code">reboot
+</pre>
+
+<p></p>
+
+<p>
+Now you can access luci interface by 192.168.1.1 with your browser
+</p>
+
+</div>
+
+<h4><a name="vi.editor.basic.using.for.beginners" id="vi.editor.basic.using.for.beginners">VI editor basic using ( for beginners )</a></h4>
+<div class="level4">
+
+<p>
+
+</p><pre class="code">arrow keys: move cursor
+a:          enter write mode
+DEL:        delete character
+ESC:        exit write mode
+</pre>
+
+<p></p>
+
+<p>
+even exit write mode it wont exit vi editor or write your changing for 
+these you need when you out of write mode you have to give these command
+ to vi:
+</p>
+
+<p>
+</p><pre class="code">:w    write changing to router
+:q    exit vi editor and return to command shell
+:wq   write &amp; exit
+:q!   you cant exit vi when you made some changes. If you want exit vi without write changes you have to use these to exit vi editor.
+</pre>
+
+<p></p>
+
+<p>
+this should enough for set this router
+</p>
+
+</div>
+
+<h2><a name="failsafe.mode" id="failsafe.mode">Failsafe Mode</a></h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> Set your computer's IP to 192.168.1.2, subnet 255.255.255.0</div>
+</li>
+<li class="level1"><div class="li"> Connect the TL-MR3020 to your computer via ethernet</div>
+</li>
+<li class="level1"><div class="li"> Power on the TL-MR3020</div>
+</li>
+<li class="level1"><div class="li"> When the WPS button starts to blink:</div>
+<ul>
+<li class="level2"><div class="li"> on AA (Attitude Adjustment / 12.09) push the WPS button;</div>
+</li>
+<li class="level2"><div class="li"> on BB (Breaking Barrier / trunk) move the sliding switch quickly from one side to the other.</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> Do this until the WPS button starts blinking faster.</div>
+</li>
+<li class="level1"><div class="li"> The device is now in Failsafe-Mode</div>
+</li>
+<li class="level1"><div class="li"> You may access it by using <strong>telnet 192.168.1.1</strong></div>
+</li>
+</ul>
+
+<p>
+ 
+Info on resetting to OpenWrt defaults can be found at: <a href="http://wiki.openwrt.org/doc/howto/generic.failsafe#in.failsafe.mode" class="urlextern" title="http://wiki.openwrt.org/doc/howto/generic.failsafe#in.failsafe.mode" rel="nofollow">generic.failsafe</a>
+</p>
+
+</div>
+
+<h3><a name="downgrade.attitute.adjustment.from.trunk" id="downgrade.attitute.adjustment.from.trunk">Downgrade Attitute Adjustment from Trunk</a></h3>
+<div class="level3">
+
+<p>
+
+Downgraded wrong image ( jff2 instead of squashfs ) cause cant get ip or
+ connect to luci. Failsafe mode still working but firstboot command wont
+ work because it is already on working. You can upload correct firmware 
+and write it with mtd command but failsafe mode can't connect internet. 
+You need to local tftp server to get firmware.
+</p>
+
+<p>
+Set your pc ip 192.168.1.10/24 and gateway 192.168.1.1. Download <a href="http://code.google.com/p/mongoose/" class="urlextern" title="http://code.google.com/p/mongoose/" rel="nofollow">mongoose http server</a>
+ and correct firmware same folder and start mongoose. It will host all 
+files in his path ( if you start it from downloads folder it will host 
+all files in downloads folder )
+</p>
+
+<p>
+now we can get firmware via failsafe telnet:
+</p>
+
+<p>
+</p><pre class="code">wget http://192.168.1.10:8080/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin
+mtd -r write /tmp/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin firmware
+Writing from /tmp/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin to firmware ...
+Rebooting ...
+/bin/sh: /sbin/reboot: Input/output error
+</pre>
+
+<p></p>
+
+<p>
+DONT DO ANYTHING. Just wait and router reboot itself. wait few minutes and you will able to reach Luci via 192.168.1.1.
+</p>
+
+</div>
+
+<h2><a name="restoring.original.firmware" id="restoring.original.firmware">Restoring Original Firmware</a></h2>
+<div class="level2">
+
+<p>
+→ <a href="http://wiki.openwrt.org/doc/howto/generic.uninstall" class="wikilink1" title="doc:howto:generic.uninstall">generic.uninstall</a>
+</p>
+
+<!-- including meta:infobox:dangerous // /var/www/servers/beta.openwrt.org/pages/data/pages/meta/infobox/dangerous.txt -->
+<div class="include hentry">
+<div class="entry-content">
+
+<p>
+
+</p><table class="inline" style="width:70%; margin-left:15%">
+  <tbody><tr>
+    <td style="border-left:6px solid #cd0505; vertical-align:middle">
+      <img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/48px-dialog-warning.png" alt="" style="float:left; margin-right:0.5em">
+      <strong>Warning!</strong><br>
+      This section describes actions that might damage your device or firmware. Proceed with care!
+    </td>
+  </tr>
+</tbody></table>
+
+
+<p></p>
+
+</div><!-- .entry-content -->
+</div>
+
+<!-- /including meta:infobox:dangerous -->
+
+<p>
+With the TL-WR842ND router, there is a catch: the stock firmware is obtained from the OEM: <a href="http://www.tplink.com/en/support/download/?model=TL-MR3020" class="urlextern" title="http://www.tplink.com/en/support/download/?model=TL-MR3020" rel="nofollow">http://www.tplink.com/en/support/download/?model=TL-MR3020</a>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> in case the file name of this firmware file does not contain the word <strong><em>"boot"</em></strong> in it, you can simply revert back to original firmware</div>
+</li>
+<li class="level1"><div class="li"> in case the file name of this firmware file does contain the word <strong><em>"boot"</em></strong> in it, you need to cut off parts of the image file <em>before</em> flashing it:</div>
+</li>
+</ul>
+
+<p>
+An example of an image file with the word "boot" in it is <code>mr3020nv1_en_3_17_2_up_boot(140408).bin</code>.
+</p>
+
+<p>
+Cut the first 0x20200 (that is 131,584 = 257*512) Bytes from original firmware:
+</p><pre class="code">dd if=orig.bin of=tplink.bin skip=257 bs=512
+</pre>
+
+<p></p>
+
+<p>
+You should transfer the firmeware image to the /tmp folder and revert 
+back to original firmware (if availlable you can flash the firmware via 
+the webinterface as well):
+</p>
+
+<p>
+Via the safer method using sysupgrade:
+</p><pre class="code">sysupgrade /tmp/tplink.bin
+</pre>
+
+<p></p>
+
+<p>
+Or you use the mtd method:
+</p><pre class="code">mtd -r write /tmp/tplink.bin firmware
+</pre>
+
+<p></p>
+
+<p>
+It is also possible to revert to the stock firmware using the method 
+with tftp described in "Manual Method Using Serial Console and TFTP 
+(Experts)". (you still need the firmware images without the boot part).
+</p>
+
+<p>
+OEM TP-Link firmware for the TL-MR3020 with the <strong><em>boot part removed</em></strong> to revert to the original OEM firmware:
+</p>
+<ul>
+<li class="level1"><div class="li"> TL-MR3020 <strong><em>V1</em></strong> <a href="http://q.gs/6giYF" class="urlextern" title="http://q.gs/6giYF" rel="nofollow">TL-MR3020-V1-stripped.zip</a></div>
+</li>
+</ul>
+
+</div>
+
+<h2><a name="basic.configuration" id="basic.configuration">Basic Configuration</a></h2>
+<div class="level2">
+
+<p>
+Since this part is identical to the one recommended for generic devices, see <a href="http://wiki.openwrt.org/doc/howto/basic.config" class="wikilink1" title="doc:howto:basic.config">Basic configuration</a>.
+</p>
+
+</div>
+
+<h2><a name="original.flash.layout" id="original.flash.layout">Original Flash Layout</a></h2>
+<div class="level2">
+
+<p>
+Please read the article <a href="http://wiki.openwrt.org/doc/techref/flash.layout" class="wikilink1" title="doc:techref:flash.layout">Flash Layout</a>
+ for a better understanding. It contains a couple of explanations. Then 
+let's have a quick view at flash layout of this particular device:
+
+</p>
+<table class="inline">
+<tbody><tr class="row0">
+	<th class="col0 centeralign" colspan="6" rowspan="1">TP-Link MR3020  Flash Layout stock firmware</th>
+</tr>
+<tr class="row1">
+	<th class="col0 leftalign" colspan="1" rowspan="1">Layer0</th>
+	<td class="col1 centeralign" colspan="5" rowspan="1">spi0.0:            4096KiB</td>
+</tr>
+<tr class="row2">
+	<th class="col0 leftalign" colspan="1" rowspan="1">Layer1</th>
+	<td class="col1 centeralign" colspan="1" rowspan="1">mtd0</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">mtd1</td>
+	<td class="col3 centeralign" colspan="1" rowspan="1">mtd2</td>
+	<td class="col4 centeralign" colspan="1" rowspan="1">mtd3</td>
+	<td class="col5 centeralign" colspan="1" rowspan="1">mtd4</td>
+</tr>
+<tr class="row3">
+	<th class="col0 leftalign" colspan="1" rowspan="1">Size in KiB</th>
+	<td class="col1 centeralign" colspan="1" rowspan="1">128KiB</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">1024KiB</td>
+	<td class="col3 centeralign" colspan="1" rowspan="1">2816 KiB</td>
+	<td class="col4 centeralign" colspan="1" rowspan="1">64KiB</td>
+	<td class="col5 centeralign" colspan="1" rowspan="1">64KiB</td>
+</tr>
+<tr class="row4">
+	<th class="col0 leftalign" colspan="1" rowspan="1">Name</th>
+	<td class="col1 centeralign" colspan="1" rowspan="1"><strong><em>u-boot</em></strong></td>
+	<td class="col2 centeralign" colspan="1" rowspan="1"><strong><em>kernel</em></strong></td>
+	<td class="col3 centeralign" colspan="1" rowspan="1"><strong><em>rootfs</em></strong></td>
+	<td class="col4 centeralign" colspan="1" rowspan="1"><strong><em>config</em></strong></td>
+	<td class="col5 centeralign" colspan="1" rowspan="1"><strong><em>art</em></strong></td>
+</tr>
+<tr class="row5">
+	<th class="col0 leftalign" colspan="1" rowspan="1">mountpoint</th>
+	<td class="col1 centeralign" colspan="1" rowspan="1">none</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">none</td>
+	<td class="col3 leftalign" colspan="1" rowspan="1">/</td>
+	<td class="col4 centeralign" colspan="1" rowspan="1">none</td>
+	<td class="col5 centeralign" colspan="1" rowspan="1">none</td>
+</tr>
+<tr class="row6">
+	<th class="col0 leftalign" colspan="1" rowspan="1">filesystem</th>
+	<td class="col1 centeralign" colspan="1" rowspan="1">none</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">none</td>
+	<td class="col3 leftalign" colspan="1" rowspan="1">SquashFS</td>
+	<td class="col4 centeralign" colspan="1" rowspan="1">none</td>
+	<td class="col5 centeralign" colspan="1" rowspan="1">none</td>
+</tr>
+</tbody></table>
+<p>
+
+ART = Atheros Radio Test - it contains RF calibration data for the wifi.
+ If it is missing or corrupt, wireless won't come up anymore.<br>
+
+</p>
+
+</div>
+
+<h2><a name="hardware" id="hardware">Hardware</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><a name="opening.the.case" id="opening.the.case">Opening the Case</a></h3>
+<div class="level3">
+
+<p>
+
+The case consists of two parts: a white base and a gray lid. The lid has
+ two snap hinges, one right above the mini USB connector and one on the 
+opposite side about 10 mm left of the "TP-LINK" logo. The lid is 
+additionally glued in place on the underside on all four sides. You can 
+try to pry it open with a thin but very stable blade tool. Start above 
+the ethernet port where the case is not glued, and work your way around 
+the glued corner towards the "3G USB" port (no glue there) until you 
+reach the logo side. You should now be able to peek inside the case on 
+the lose corner.
+</p>
+
+<p>
+Next proceed along to the LED side, but beware of the fragile light 
+conductors running straight down beneath the clear plastic. They easily 
+bend or break when you push-in your tool too far. Once three sides are 
+open, you can steadily lift the lid until the remaining side breaks lose
+ and neatly frees the second hinge in the process. If you work carefully
+ and manage not to break either one of the two hinges, the gray lid 
+should snap neatly back into place after some manual cleaning with a 
+cutter knife.
+</p>
+
+</div>
+
+<h3><a name="internal.pictures" id="internal.pictures">Internal Pictures</a></h3>
+<div class="level3">
+
+<p>
+<a href="http://wiki.openwrt.org/_detail/media/tp-link_mr3020_top-pcb.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="media:tp-link_mr3020_top-pcb.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/tp-link_mr3020_top-pcb.jpg" class="media" title="tp-link_mr3020_top-pcb.jpg" alt="tp-link_mr3020_top-pcb.jpg" width="450"></a>
+<a href="http://wiki.openwrt.org/_detail/media/tp-link_mr3020_bottom-pcb.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="media:tp-link_mr3020_bottom-pcb.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/tp-link_mr3020_bottom-pcb.jpg" class="media" title="tp-link_mr3020_bottom-pcb.jpg" alt="tp-link_mr3020_bottom-pcb.jpg" width="450"></a>
+<a href="http://wiki.openwrt.org/_detail/toh/tp-link/img_20121015_170949.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="toh:tp-link:img_20121015_170949.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/img_20121015_170949.jpg" class="media" title="img_20121015_170949.jpg" alt="img_20121015_170949.jpg" width="450"></a>
+</p>
+
+</div>
+
+<h3><a name="hardware.summary" id="hardware.summary">Hardware summary</a></h3>
+<div class="level3">
+<table class="inline">
+<tbody><tr class="row0">
+	<td class="col0 rightalign" colspan="1" rowspan="1"></td>
+	<th class="col1 centeralign" colspan="1" rowspan="1">IC</th>
+	<th class="col2 centeralign" colspan="1" rowspan="1">Info</th>
+	<th class="col3 centeralign" colspan="1" rowspan="1">Datasheet</th>
+</tr>
+<tr class="row1">
+	<th class="col0 rightalign" colspan="1" rowspan="1">Processor</th>
+	<td class="col1" colspan="1" rowspan="1">AR7240</td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 leftalign" colspan="1" rowspan="1"><a href="http://wiki.openwrt.org/_media/toh/tp-link/atheros.ar7240.pdf" class="media mediafile mf_pdf" title="toh:tp-link:atheros.ar7240.pdf">Click</a></td>
+</tr>
+<tr class="row2">
+	<th class="col0 rightalign" colspan="1" rowspan="1">Flash ROM</th>
+	<td class="col1" colspan="1" rowspan="1">Spansion S25FL032P</td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 leftalign" colspan="1" rowspan="1"><a href="http://www.spansion.com/Support/Datasheets/S25FL032P_00.pdf" class="urlextern" title="http://www.spansion.com/Support/Datasheets/S25FL032P_00.pdf" rel="nofollow">http://www.spansion.com/Support/Datasheets/S25FL032P_00.pdf</a></td>
+</tr>
+<tr class="row3">
+	<th class="col0 rightalign" colspan="1" rowspan="1">SDRAM</th>
+	<td class="col1" colspan="1" rowspan="1">Windbond W9425G6JH</td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3" colspan="1" rowspan="1"><a href="http://www.winbond.com/NR/rdonlyres/11505884-F632-41F9-9438-A3EC025FEAED/0/W9425G6JH.pdf" class="urlextern" title="http://www.winbond.com/NR/rdonlyres/11505884-F632-41F9-9438-A3EC025FEAED/0/W9425G6JH.pdf" rel="nofollow">http://www.winbond.com/NR/rdonlyres/11505884-F632-41F9-9438-A3EC025FEAED/0/W9425G6JH.pdf</a></td>
+</tr>
+<tr class="row4">
+	<th class="col0 rightalign" colspan="1" rowspan="1"></th>
+	<td class="col1" colspan="1" rowspan="1">Zentel A3S56D40FTP-G5</td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row5">
+	<th class="col0 rightalign" colspan="1" rowspan="1">Chipset (Wi-Fi controller)</th>
+	<td class="col1" colspan="1" rowspan="1">AR9331</td>
+	<td class="col2" colspan="1" rowspan="1">1x1</td>
+	<td class="col3" colspan="1" rowspan="1"><a href="http://see.sl088.com/w/images/6/69/AR9331.pdf" class="urlextern" title="http://see.sl088.com/w/images/6/69/AR9331.pdf" rel="nofollow">http://see.sl088.com/w/images/6/69/AR9331.pdf</a></td>
+</tr>
+</tbody></table>
+</div>
+
+<h3><a name="serial.console" id="serial.console">Serial Console</a></h3>
+<div class="level3">
+
+</div>
+
+<h5><a name="pinout" id="pinout">Pinout</a></h5>
+<div class="level5">
+<table class="inline">
+<tbody><tr class="row0">
+	<th class="col0" colspan="1" rowspan="1">1</th>
+	<th class="col1" colspan="1" rowspan="1">2</th>
+	<th class="col2" colspan="1" rowspan="1">3</th>
+	<th class="col3" colspan="1" rowspan="1">4</th>
+</tr>
+<tr class="row1">
+	<td class="col0" colspan="1" rowspan="1">TX</td>
+	<td class="col1" colspan="1" rowspan="1">RX</td>
+	<td class="col2" colspan="1" rowspan="1">GND</td>
+	<td class="col3" colspan="1" rowspan="1">VCC</td>
+	<td class="col4" colspan="1" rowspan="1"></td>
+	<td class="col5" colspan="1" rowspan="1">SJ1</td>
+</tr>
+</tbody></table>
+<p>
+
+Pin 1 is clearly marked on the board.
+</p>
+
+<p>
+To get a reliable serial connection, <strong>you might have to connect a 10k pullup resistor</strong>
+ between TX and VCC. This is because the TX pin is connected to a 
+voltage divider (2x5.6k) and a capacitor is put between the real pin and
+ the TX connector. Some serial adaptors might work without the pullup 
+resistor (confirmed for one ST3232-based adaptor), but others definitely
+ require it (confirmed for a FTDI FT232RL-based model). 
+</p>
+
+<p>
+If you need a serial adaptor, you can build a <a href="http://buffalo.nas-central.org/index.php/Use_a_Nokia_Serial_Cable_on_an_ARM9_Linkstation#Preparing_the_Cable" class="urlextern" title="http://buffalo.nas-central.org/index.php/Use_a_Nokia_Serial_Cable_on_an_ARM9_Linkstation#Preparing_the_Cable" rel="nofollow">serial hack adapter</a> (DKU-5, CA-42). Relatively cheap, off-the-shelf and known-to-work alternatives would be SparkFun's <a href="http://www.sparkfun.com/products/9873" class="urlextern" title="http://www.sparkfun.com/products/9873" rel="nofollow">FTDI Basic Breakout 3.3V</a> and <a href="http://www.sparkfun.com/products/9717" class="urlextern" title="http://www.sparkfun.com/products/9717" rel="nofollow">FTDI Serial Cable 3.3V</a> (the resistor is not needed with this specific cable).
+</p>
+
+<p>
+The right settings for accessing the serial console are as follows:
+</p>
+
+<p>
+Bits per second: <strong>115200</strong><br>
+
+Data bits: <strong>8</strong><br>
+
+Stop bits: <strong>1</strong><br>
+
+Parity: <strong>None</strong><br>
+
+Flow control: <strong>None</strong><br>
+
+</p>
+
+<p>
+If you are using a Linux or Mac system, the easiest way to connect to the serial console would be the <strong>screen</strong> command. It comes pre-installed on <acronym title="Operating System">OS</acronym> X, but must usually be installed on Linux systems. When installed, just type in a terminal:
+</p><pre class="code">screen /dev/[device name] 115200
+</pre>
+
+<p></p>
+
+<p>
+where [device name] is the name of your serial adaptor, usually 
+tty.usbserial* on Mac and ttyUSB* on Linux. To quit screen, press 
+CTRL-a, followed by CTRL-k, followed by y.
+</p>
+
+</div>
+
+<h4><a name="u-boot.bootloader.console" id="u-boot.bootloader.console">U-Boot Bootloader Console</a></h4>
+<div class="level4">
+
+<p>
+
+The password to get the U-Boot prompt is <strong>tpl</strong>. You must type it quickly while the serial console is displaying:
+</p><pre class="code">[...]
+ag7240_phy_setup 
+eth1 up
+eth0, eth1
+Autobooting in 1 seconds
+[type tpl here]</pre>
+
+<p></p>
+
+<p>
+U-Boot accepts several commands. Type <strong>help</strong> to display the list of available commands.
+</p>
+
+<p>
+</p><pre class="code">hornet&gt; help
+?       - alias for 'help'
+bootm   - boot application image from memory
+cp      - memory copy
+erase   - erase FLASH memory
+help    - print online help
+md      - memory display
+mm      - memory modify (auto-incrementing)
+mtest   - simple RAM test
+mw      - memory write (fill)
+nm      - memory modify (constant address)
+printenv- print environment variables
+progmac - Set ethernet MAC addresses
+reset   - Perform RESET of the CPU
+setenv  - set environment variables
+tftpboot- boot image via network using TFTP protocol
+version - print monitor version</pre>
+
+<p></p>
+
+</div>
+
+<h4><a name="linux.console" id="linux.console">Linux Console</a></h4>
+<div class="level4">
+
+<p>
+
+Once the original firmware has booted up completely, you can press <strong>return</strong> to activate the Linux login prompt.
+</p>
+
+<p>
+The password to get a root Shell access is <strong>5up</strong>:
+</p>
+
+<p>
+</p><pre class="code">TL-MR3020 mips #185 Fri Oct 21 16:26:50 CST 2011 (none)
+TL-MR3020 login: root
+password: 5up</pre>
+
+<p></p>
+
+</div>
+
+<h3><a name="gpios" id="gpios">GPIOs</a></h3>
+<div class="level3">
+
+<p>
+→ <a href="http://wiki.openwrt.org/doc/hardware/port.gpio" class="wikilink1" title="doc:hardware:port.gpio">port.GPIO</a>
+The AR933x platform provides 30 GPIOs. Some of them are used by the 
+router for status LEDs, buttons and other stuff. The table below shows 
+the results of some investigation:
+
+</p>
+<table class="inline">
+<tbody><tr class="row0">
+	<th class="col0 rightalign" colspan="1" rowspan="1"></th>
+	<th class="col1 rightalign" colspan="1" rowspan="1"></th>
+	<th class="col2 rightalign" colspan="1" rowspan="1"></th>
+	<th class="col3 centeralign" colspan="2" rowspan="1">Voltage level at GPIO in output-mode</th>
+	<th class="col5 rightalign" colspan="3" rowspan="1">gpioX/value in input-mode when GPIO is:</th>
+</tr>
+<tr class="row1">
+	<th class="col0 centeralign" colspan="1" rowspan="1">GPIO</th>
+	<th class="col1 centeralign" colspan="1" rowspan="1">Common Name</th>
+	<th class="col2 centeralign" colspan="1" rowspan="1">PCB Name</th>
+	<th class="col3 centeralign" colspan="1" rowspan="1">gpioX/value=1</th>
+	<th class="col4 leftalign" colspan="1" rowspan="1">gpioX/value=0</th>
+	<th class="col5 centeralign" colspan="1" rowspan="1">Floating</th>
+	<th class="col6 centeralign" colspan="1" rowspan="1">Pulled to GND</th>
+	<th class="col7 centeralign" colspan="1" rowspan="1">Pulled to Vcc</th>
+</tr>
+<tr class="row2">
+	<td class="col0 rightalign" colspan="1" rowspan="1">0</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">WLAN LED</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">LED4</td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row3">
+	<td class="col0 rightalign" colspan="1" rowspan="1">1</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row4">
+	<td class="col0 rightalign" colspan="1" rowspan="1">2</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row5">
+	<td class="col0 rightalign" colspan="1" rowspan="1">3</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row6">
+	<td class="col0 rightalign" colspan="1" rowspan="1">4</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row7">
+	<td class="col0 rightalign" colspan="1" rowspan="1">5</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row8">
+	<td class="col0 rightalign" colspan="1" rowspan="1">6</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row9">
+	<td class="col0 rightalign" colspan="1" rowspan="1">7</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">unused Pulled to ground</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">R15</td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row10">
+	<td class="col0 rightalign" colspan="1" rowspan="1">8</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">USB power</td>
+	<td class="col2 leftalign" colspan="1" rowspan="1">R112</td>
+	<td class="col3 leftalign" colspan="1" rowspan="1">2.8V</td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row11">
+	<td class="col0 rightalign" colspan="1" rowspan="1">9</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row12">
+	<td class="col0 rightalign" colspan="1" rowspan="1">10</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row13">
+	<td class="col0 rightalign" colspan="1" rowspan="1">11</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">WPS button</td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row14">
+	<td class="col0 rightalign" colspan="1" rowspan="1">12</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row15">
+	<td class="col0 rightalign" colspan="1" rowspan="1">13</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row16">
+	<td class="col0 rightalign" colspan="1" rowspan="1">14</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row17">
+	<td class="col0 rightalign" colspan="1" rowspan="1">15</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row18">
+	<td class="col0 rightalign" colspan="1" rowspan="1">16</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row19">
+	<td class="col0 rightalign" colspan="1" rowspan="1">17</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1">Ethernet LED</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">LED5</td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row20">
+	<td class="col0 rightalign" colspan="1" rowspan="1">18</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">Sliding Sw.</td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row21">
+	<td class="col0 rightalign" colspan="1" rowspan="1">19</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row22">
+	<td class="col0 rightalign" colspan="1" rowspan="1">20</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">Sliding Sw.</td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row23">
+	<td class="col0 rightalign" colspan="1" rowspan="1">21</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row24">
+	<td class="col0 rightalign" colspan="1" rowspan="1">22</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row25">
+	<td class="col0 rightalign" colspan="1" rowspan="1">23</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row26">
+	<td class="col0 rightalign" colspan="1" rowspan="1">24</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row27">
+	<td class="col0 rightalign" colspan="1" rowspan="1">25</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row28">
+	<td class="col0 rightalign" colspan="1" rowspan="1">26</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">WPS LED</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">LED2</td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row29">
+	<td class="col0 rightalign" colspan="1" rowspan="1">27</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1">Internet LED</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">LED3</td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row30">
+	<td class="col0 rightalign" colspan="1" rowspan="1">28</td>
+	<td class="col1 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col2 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+<tr class="row31">
+	<td class="col0 rightalign" colspan="1" rowspan="1">29</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">unused Pulled to ground</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">R17</td>
+	<td class="col3 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col4 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col5 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col6 rightalign" colspan="1" rowspan="1"></td>
+	<td class="col7 rightalign" colspan="1" rowspan="1"></td>
+</tr>
+</tbody></table>
+<p>
+
+To make the GPIOs available via sysfs, the required ones have to be exported to userspace, as it is explained on a page of the <a href="http://squidge.sourceforge.net/gpio/" class="urlextern" title="http://squidge.sourceforge.net/gpio/" rel="nofollow">Squidge-Project</a>.
+ Kernel modules occupying that resource need to be removed before (e.g. 
+"leds-gpio" and "gpio-buttons"). In output-mode, voltage levels of the 
+GPIOs were measured against GND, after the value 1 or 0 had been written
+ to /sys/class/gpio/gpioX/value. In input-mode, the value of the file 
+/sys/class/gpio/gpioX/value was read when the GPIO was floating (initial
+ state), pulled to GND or pulled to Vcc. 
+</p>
+
+<p>
+The sliding switch has the following truth table:
+</p>
+<table class="inline">
+<tbody><tr class="row0">
+	<th class="col0" colspan="1" rowspan="1">Mode Switch</th>
+	<th class="col1" colspan="1" rowspan="1">GPIO18</th>
+	<th class="col2" colspan="1" rowspan="1">GPIO20</th>
+</tr>
+<tr class="row1">
+	<td class="col0 leftalign" colspan="1" rowspan="1">3G</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">1</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">0</td>
+</tr>
+<tr class="row2">
+	<td class="col0 leftalign" colspan="1" rowspan="1">WISP</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">0</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">1</td>
+</tr>
+<tr class="row3">
+	<td class="col0 leftalign" colspan="1" rowspan="1">AP</td>
+	<td class="col1 centeralign" colspan="1" rowspan="1">1</td>
+	<td class="col2 centeralign" colspan="1" rowspan="1">1</td>
+</tr>
+</tbody></table>
+</div>
+
+<h3><a name="leds" id="leds">LEDs</a></h3>
+<div class="level3">
+
+<p>
+How to configure LEDs in general, see the LED section in the <a href="http://wiki.openwrt.org/doc/uci/system" class="wikilink1" title="doc:uci:system">system</a>.
+</p>
+
+<p>
+The TL-MR3020 has 5 LEDs:
+
+</p>
+<table class="inline">
+<tbody><tr class="row0">
+	<th class="col0" colspan="1" rowspan="1">LED name</th>
+	<th class="col1" colspan="1" rowspan="1">LED print</th>
+	<th class="col2" colspan="1" rowspan="1">Internal name</th>
+	<th class="col3" colspan="1" rowspan="1">Trigger</th>
+</tr>
+<tr class="row1">
+	<td class="col0" colspan="1" rowspan="1">Power</td>
+	<td class="col1" colspan="1" rowspan="1">Power symbol</td>
+	<td class="col2" colspan="1" rowspan="1">N/A (fixed supply)</td>
+	<td class="col3" colspan="1" rowspan="1">N/A</td>
+</tr>
+<tr class="row2">
+	<td class="col0 leftalign" colspan="1" rowspan="1">3G</td>
+	<td class="col1 leftalign" colspan="1" rowspan="1">Internet symbol</td>
+	<td class="col2" colspan="1" rowspan="1">tl-mr3020:green:3g</td>
+	<td class="col3" colspan="1" rowspan="1"><code>USB:1-1</code></td>
+</tr>
+<tr class="row3">
+	<td class="col0" colspan="1" rowspan="1">Wireless LAN</td>
+	<td class="col1" colspan="1" rowspan="1">WLAN symbol</td>
+	<td class="col2" colspan="1" rowspan="1">tl-mr3020:green:wlan</td>
+	<td class="col3" colspan="1" rowspan="1"><code>phy0tpt</code></td>
+</tr>
+<tr class="row4">
+	<td class="col0" colspan="1" rowspan="1">LAN</td>
+	<td class="col1" colspan="1" rowspan="1">LAN symbol</td>
+	<td class="col2" colspan="1" rowspan="1">tl-mr3020:green:lan</td>
+	<td class="col3" colspan="1" rowspan="1"><code>netdev:eth0</code></td>
+</tr>
+<tr class="row5">
+	<td class="col0" colspan="1" rowspan="1">WPS</td>
+	<td class="col1" colspan="1" rowspan="1">WPS</td>
+	<td class="col2" colspan="1" rowspan="1">tl-mr3020:green:wps</td>
+	<td class="col3" colspan="1" rowspan="1">User preference</td>
+</tr>
+</tbody></table>
+</div>
+
+<h3><a name="buttons" id="buttons">Buttons</a></h3>
+<div class="level3">
+
+<p>
+→ <a href="http://wiki.openwrt.org/doc/howto/hardware.button" class="wikilink1" title="doc:howto:hardware.button">hardware.buttons</a>
+The TP-Link TL-MR3020 has one button and one sliding switch with three positions:
+</p>
+<table class="inline">
+<tbody><tr class="row0">
+	<th class="col0" colspan="1" rowspan="1">BUTTON</th>
+	<th class="col1" colspan="1" rowspan="1">Event</th>
+</tr>
+<tr class="row1">
+	<td class="col0" colspan="1" rowspan="1">Sliding Switch</td>
+	<td class="col1" colspan="1" rowspan="1">BTN_0 and BTN_1</td>
+</tr>
+<tr class="row2">
+	<td class="col0" colspan="1" rowspan="1">WPS Button</td>
+	<td class="col1" colspan="1" rowspan="1">WPS</td>
+</tr>
+</tbody></table>
+<p>
+
+The WPS button is located at the top (illuminated by the WPS LED) and 
+can be easily pressed with a finger. The sliding switch is located at 
+the side and has three positions: 3G, WISP, AP.
+</p>
+
+<p>
+Sample scripts to read the sliding switch: <a href="https://forum.openwrt.org/viewtopic.php?pid=172111#p172111" class="urlextern" title="https://forum.openwrt.org/viewtopic.php?pid=172111#p172111" rel="nofollow">on boot</a>, <a href="https://forum.openwrt.org/viewtopic.php?pid=172110#p172110" class="urlextern" title="https://forum.openwrt.org/viewtopic.php?pid=172110#p172110" rel="nofollow">on switch change</a>, <a href="https://gist.github.com/jefferyto/8010733" class="urlextern" title="https://gist.github.com/jefferyto/8010733" rel="nofollow">to change network configurations</a>
+</p>
+
+</div>
+
+<h2><a name="bootloader.mods" id="bootloader.mods">Bootloader Mods</a></h2>
+<div class="level2">
+<ol>
+<li class="level1"><div class="li"> you could read about <a href="http://wiki.openwrt.org/doc/techref/bootloader" class="wikilink1" title="doc:techref:bootloader">bootloader</a> in general and about <a href="http://wiki.openwrt.org/doc/techref/bootloader/uboot" class="wikilink1" title="doc:techref:bootloader:uboot">Das U-Boot</a> in particular.</div>
+</li>
+</ol>
+
+</div>
+
+<h3><a name="u-boot.1.1.4.modification.for.routers" id="u-boot.1.1.4.modification.for.routers">U-Boot 1.1.4 modification for routers</a></h3>
+<div class="level3">
+
+<p>
+Forum member <a href="https://forum.openwrt.org/profile.php?id=72549" class="urlextern" title="https://forum.openwrt.org/profile.php?id=72549" rel="nofollow">pepe2k</a> made a modification of <strong>U-Boot 1.1.4</strong> for <strong>Qualcomm Atheros</strong>
+ SoCs based devices (the project is still being developed, so new 
+devices and SoCs will be supported in the future). Up to date 
+information, binary images and sources can be found on official <a href="https://github.com/pepe2k/u-boot_mod" class="urlextern" title="https://github.com/pepe2k/u-boot_mod" rel="nofollow">GitHub repository</a>.
+</p>
+
+<p>
+This modification started from <a href="http://code.google.com/p/wr703n-uboot-with-web-failsafe/" class="urlextern" title="http://code.google.com/p/wr703n-uboot-with-web-failsafe/" rel="nofollow">wr703n-uboot-with-web-failsafe</a>
+ project, but supports more devices, all modern web browsers, has a lot 
+of improvements and other modifications (like U-Boot NetConsole, custom 
+commands, overclocking possibilities etc.).
+</p>
+
+<p>
+More information:
+
+</p>
+<ul>
+<li class="level1"><div class="li"> Official repository on GitHub: <a href="https://github.com/pepe2k/u-boot_mod" class="urlextern" title="https://github.com/pepe2k/u-boot_mod" rel="nofollow">U-Boot 1.1.4 modification for routers</a></div>
+</li>
+<li class="level1"><div class="li"> Discussion about this project on <a href="https://forum.openwrt.org/viewtopic.php?id=43237" class="urlextern" title="https://forum.openwrt.org/viewtopic.php?id=43237" rel="nofollow">OpenWrt forum</a></div>
+</li>
+<li class="level1"><div class="li"> An article (in Polish) about one of the first version of this project on <a href="http://www.tech-blog.pl/2013/03/29/zmodyfikowany-u-boot-dla-routerow-tp-link-z-atheros-ar9331-z-trybem-aktualizacji-oprogramowania-przez-www-i-konsola-sieciowa-netconsole/" class="urlextern" title="http://www.tech-blog.pl/2013/03/29/zmodyfikowany-u-boot-dla-routerow-tp-link-z-atheros-ar9331-z-trybem-aktualizacji-oprogramowania-przez-www-i-konsola-sieciowa-netconsole/" rel="nofollow">www.tech-blog.pl</a></div>
+</li>
+</ul>
+
+</div>
+
+<h2><a name="hardware.hacks" id="hardware.hacks">Hardware Hacks</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><a name="external.antenna.hack" id="external.antenna.hack">External Antenna Hack</a></h3>
+<div class="level3">
+
+<p>
+
+<a href="http://wiki.openwrt.org/_detail/media/mr3020-antenna-rpsmamod.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="media:mr3020-antenna-rpsmamod.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/mr3020-antenna-rpsmamod.jpg" class="media" title="mr3020-antenna-rpsmamod.jpg" alt="mr3020-antenna-rpsmamod.jpg" width="450"></a>
+<a href="http://wiki.openwrt.org/_detail/media/mr3020-antenna-pigtailmod.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="media:mr3020-antenna-pigtailmod.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/mr3020-antenna-pigtailmod.jpg" class="media" title="mr3020-antenna-pigtailmod.jpg" alt="mr3020-antenna-pigtailmod.jpg" width="450"></a>
+</p>
+
+<p>
+If you want to add an external antenna connector or would like to know 
+more about the MR3020 power consumption in different op-states you can 
+find more info <a href="https://apollo.open-resource.org/lab:argus#modifications" class="urlextern" title="https://apollo.open-resource.org/lab:argus#modifications" rel="nofollow">Apollo-NG MR3020 External Antenna Hack</a>
+</p>
+
+</div>
+
+<h3><a name="adding.i2c.bus" id="adding.i2c.bus">Adding I2C Bus</a></h3>
+<div class="level3">
+
+<p>
+
+If you want to add I2C bus to your MR3020, you can use GPIO 7 and 29. 
+Remove R15 and R17, then add pullup between 3.3v and gpio pin.
+</p>
+
+<p>
+<a href="http://wiki.openwrt.org/_detail/toh/tp-link/img_0229.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="toh:tp-link:img_0229.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/img_0229.jpg" class="media" title="MR3020 i2C hack" alt="MR3020 i2C hack" width="600"></a>
+</p>
+
+<p>
+<a href="http://wiki.openwrt.org/_detail/toh/tp-link/img_0231.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="toh:tp-link:img_0231.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/img_0231.jpg" class="media" title="img_0231.jpg" alt="img_0231.jpg" width="600"></a>
+</p>
+
+<p>
+Next step, add this line
+</p><pre class="code">i2c-gpio-custom bus0=0,7,29
+</pre>
+
+to /etc/modules.d/99-i2c
+<p></p>
+
+<p>
+and load i2c-gpio-custom
+</p>
+
+<p>
+You can find more info in french here <a href="http://www.equinoxefr.org/post/2012/11/12/mr3020-et-i2c-avec-les-gpio/" class="urlextern" title="http://www.equinoxefr.org/post/2012/11/12/mr3020-et-i2c-avec-les-gpio/" rel="nofollow">http://www.equinoxefr.org/post/2012/11/12/mr3020-et-i2c-avec-les-gpio/</a>
+</p>
+
+</div>
+
+<h3><a name="usb.hub.hack" id="usb.hub.hack">USB Hub Hack</a></h3>
+<div class="level3">
+
+<p>
+
+You can embedded usb hub to add more peripheral to your best router.
+</p>
+
+<p>
+I hack a 3$ STOREX usb hub, a 2$ µSD card reader and a 10$ webcam to build a robot with my MR3020.
+</p>
+
+<p>
+<a href="http://wiki.openwrt.org/_detail/toh/tp-link/img_0221.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="toh:tp-link:img_0221.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/img_0221.jpg" class="media" title="MR3020 usb hub" alt="MR3020 usb hub" width="600"></a>
+</p>
+
+<p>
+
+More info in french on <a href="http://www.equinoxefr.org/post/2012/11/05/projet-de-robot-wifi-torture-dun-routeur-tplink-mr3020/" class="urlextern" title="http://www.equinoxefr.org/post/2012/11/05/projet-de-robot-wifi-torture-dun-routeur-tplink-mr3020/" rel="nofollow">http://www.equinoxefr.org/post/2012/11/05/projet-de-robot-wifi-torture-dun-routeur-tplink-mr3020/</a>
+</p>
+
+</div>
+
+<h3><a name="gpio.pinout" id="gpio.pinout">GPIO Pinout</a></h3>
+<div class="level3">
+
+<p>
+
+<a href="http://wiki.openwrt.org/_detail/media/tp-link_mr3020_top-pcb-gpio-pins.jpg?id=toh%3Atp-link%3Atl-mr3020" class="media" title="media:tp-link_mr3020_top-pcb-gpio-pins.jpg"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/tp-link_mr3020_top-pcb-gpio-pins.jpg" class="media" alt="" width="400"></a>
+</p>
+
+</div>
+
+<h2><a name="usb.port.and.monitoring.serial.console.via.usb-serial" id="usb.port.and.monitoring.serial.console.via.usb-serial">USB port and monitoring Serial Console via USB-Serial</a></h2>
+<div class="level2">
+
+<p>
+
+The USB port on the TL-MR3020 is not compatible with USB1 devices (aka 
+full speed) and only works properly with USB2 (aka high speed) devices. 
+You can however plug a USB-Serial adapter as long as you plug that 
+through a &lt;$10 USB2. While you're at it, use another USB port to plug
+ in a USB key and write data there (like serial console logs) so as not 
+to wear out the built in flash.
+</p>
+
+<p>
+See this page for more tips and how to create a serial console server out of your TL-MR3020:
+<a href="http://marc.merlins.org/perso/linux/post_2012-12-05_Serial-Console-With-WR703N.html" class="urlextern" title="http://marc.merlins.org/perso/linux/post_2012-12-05_Serial-Console-With-WR703N.html" rel="nofollow">http://marc.merlins.org/perso/linux/post_2012-12-05_Serial-Console-With-WR703N.html</a>
+</p>
+
+</div>
+
+<h2><a name="boot.log" id="boot.log">Boot log</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><a name="factory.boot.log" id="factory.boot.log">Factory Boot Log</a></h3>
+<div class="level3">
+
+<p>
+
+</p><pre class="code">U-Boot 1.1.4 (Aug 17 2011 - 09:25:09)
+
+AP121-2MB (ar9330) U-boot
+
+DRAM:  32 MB
+led turning on for 1s...
+id read 0x100000ff
+flash size 4194304, sector count = 64
+Flash:  4 MB
+Using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ag7240_enet_initialize...
+No valid address in Flash. Using fixed address
+No valid address in Flash. Using fixed address
+: cfg1 0x5 cfg2 0x7114
+eth0: 00:03:7f:09:0b:ad
+ag7240_phy_setup
+eth0 up
+: cfg1 0xf cfg2 0x7214
+eth1: 00:03:7f:09:0b:ad
+athrs26_reg_init_lan
+ATHRS26: resetting s26
+ATHRS26: s26 reset done
+ag7240_phy_setup
+eth1 up
+eth0, eth1
+Autobooting in 1 seconds
+## Booting image at 9f020000 ...
+   Uncompressing Kernel Image ... OK
+
+Starting kernel ...
+
+Booting AR9330(Hornet)...
+Linux version 2.6.31--LSDK-9.2.0.312 (root@bogon) (gcc version 4.3.3 (GCC) ) #185 Fri Oct 21 16:26:50 CST 2011
+flash_size passed from bootloader = 4
+CPU revision is: 00019374 (MIPS 24Kc)
+Determined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+User-defined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+Zone PFN ranges:
+  Normal   0x00000000 -&gt; 0x00002000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -&gt; 0x00002000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 8128
+Kernel command line: console=ttyS0,115200 root=31:02 rootfstype=squashfs init=/sbin/init mtdparts=ar7240-nor0:128k(u-boot),1024k(kernel),2816(rootfs),64k(config),64k(ART) mem=32M
+PID hash table entries: 128 (order: 7, 512 bytes)
+Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Primary instruction cache 64kB, VIPT, 4-way, linesize 32 bytes.
+Primary data cache 32kB, 4-way, VIPT, cache aliases, linesize 32 bytes
+Writing ErrCtl register=00000000
+Readback ErrCtl register=00000000
+Memory: 29864k/32768k available (1889k kernel code, 2904k reserved, 524k data, 116k init, 0k highmem)
+Hierarchical RCU implementation.
+NR_IRQS:128
+plat_time_init: plat time init done
+Calibrating delay loop... 266.24 BogoMIPS (lpj=532480)
+Mount-cache hash table entries: 512
+NET: Registered protocol family 16
+===== ar7240_platform_init: 0
+
+
+Whoops! This kernel is for product mr3020 v1.0!
+
+bio: create slab &lt;bio-0&gt; at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+TCP: Hash tables configured (established 1024 bind 1024)
+TCP reno registered
+NET: Registered protocol family 1
+AR7240 GPIOC major 0
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+NTFS driver 2.1.29 [Flags: R/O].
+msgmni has been set to 58
+alg: No test for lzma (lzma-generic)
+alg: No test for stdrng (krng)
+io scheduler noop registered
+io scheduler anticipatory registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+ttyS0: detected caps 00000000 should be 00000100
+serial8250.0: ttyS0 at MMIO 0xb8020000 (irq = 19) is a 16550A
+console [ttyS0] enabled
+PPP generic driver version 2.4.2
+NET: Registered protocol family 24
+cmdlinepart partition parsing not available
+set partition boot
+set partition kernel
+set partition rootfs
+set partition config
+set partition art
+set partition ÿ
+Searching for RedBoot partition table
+5 RedBoot partitions found on MTD device ar7240-nor0
+Creating 5 MTD partitions on "ar7240-nor0":
+0x000000000000-0x000000020000 : "boot"
+0x000000020000-0x000000120000 : "kernel"
+0x000000120000-0x0000003e0000 : "rootfs"
+0x0000003e0000-0x0000003f0000 : "config"
+0x0000003f0000-0x000000400000 : "art"
+-&gt;Oops: flash id 0x10215 .
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Port Status 1c000004
+ar7240-ehci ar7240-ehci.0: ATH EHCI
+ar7240-ehci ar7240-ehci.0: new USB bus registered, assigned bus number 1
+ehci_reset Intialize USB CONTROLLER in host mode: 3
+ehci_reset Port Status 1c000000
+ar7240-ehci ar7240-ehci.0: irq 3, io mem 0x1b000000
+ehci_reset Intialize USB CONTROLLER in host mode: 3
+ehci_reset Port Status 1c000000
+ar7240-ehci ar7240-ehci.0: USB 2.0 started, EHCI 1.00
+usb usb1: configuration #1 chosen from 1 choice
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+TCP cubic registered
+NET: Registered protocol family 17
+802.1Q VLAN Support v1.8 Ben Greear &lt;greearb@candelatech.com&gt;
+All bugs added by David S. Miller &lt;davem@redhat.com&gt;
+ar7240wdt_init: Registering WDT success
+VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Freeing unused kernel memory: 116k freed
+init started:  BusyBox v1.01 (2011.04.01-07:49+0000) multi-call binary
+This Board use 2.6.31
+xt_time: kernel timezone is -0000
+nf_conntrack version 0.5.0 (512 buckets, 5120 max)
+ip_tables: (C) 2000-2006 Netfilter Core Team
+insmod: cannot open module `/lib/modules/2.6.31/kernel/iptable_raw.ko': No such file or directory
+insmod: cannot open module `/lib/modules/2.6.31/kernel/flashid.ko': No such file or directory
+PPPoL2TP kernel driver, V1.0
+PPTP driver version 0.8.3
+insmod: cannot open module `/lib/modules/2.6.31/kernel/harmony.ko': No such file or directory
+
+ (none) mips #185 Now flash open!
+Fri Oct 21 16:26:50 CST 2011 (none)
+(none) login: Now flash open!
+ATHR_GMAC: Length per segment 1536
+ATHR_GMAC: fifo cfg 3 01f00140
+ATHR_GMAC: Mac address for unit 1:bf1f0006
+ATHR_GMAC: 6e:09:80:e4:67:1b
+ATHR_GMAC: Max segments per packet :   1
+ATHR_GMAC: Max tx descriptor count :   40
+ATHR_GMAC: Max rx descriptor count :   96
+ATHR_GMAC: Mac capability flags    :   4D83
+ATHR_GMAC: Mac address for unit 0:bf1f0000
+ATHR_GMAC: 12:03:cb:60:38:f7
+ATHR_GMAC: Max segments per packet :   1
+ATHR_GMAC: Max tx descriptor count :   40
+ATHR_GMAC: Max rx descriptor count :   252
+ATHR_GMAC: Mac capability flags    :   4403
+athr_gmac_ring_alloc Allocated 640 at 0x81e79800
+athr_gmac_ring_alloc Allocated 4032 at 0x81d63000
+Setting Drop CRC Errors, Pause Frames and Length Error frames
+Setting PHY...mac 0
+athr_gmac_ring_alloc Allocated 640 at 0x81e79400
+athr_gmac_ring_alloc Allocated 1536 at 0x81f22000
+athr_gmac_mii_setup: MDC check failed
+Setting Drop CRC Errors, Pause Frames and Length Error frames
+ATHRS26: resetting s26
+ATHRS26: s26 reset done
+Setting PHY...mac 1
+device eth0 entered promiscuous mode
+Now flash open!
+nf_conntrack_rtsp v0.6.21 loading
+nf_nat_rtsp v0.6.21 loading
+asf: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+ath_hal: 0.9.17.1 (AR9380, DEBUG, REGOPS_FUNC, WRITE_EEPROM, 11D)
+ath_rate_atheros: Copyright (c) 2001-2005 Atheros Communications, Inc, All Rights Reserved
+ath_dev: Copyright (c) 2001-2007 Atheros Communications, Inc, All Rights Reserved
+ath_ahb: 9.2.0_U5.508 (Atheros/multi-bss)
+Boostrap clock 25MHz
+ar9300RadioAttach: Need analog access recipe!!
+Restoring Cal data from Flash
+ath_get_caps[4735] rx chainmask mismatch actual 1 sc_chainmak 0
+ath_get_caps[4710] tx chainmask mismatch actual 1 sc_chainmak 0
+wifi0: Atheros 9380: mem=0xb8100000, irq=2
+wlan_vap_create : enter. devhandle=0x80c042c0, opmode=IEEE80211_M_HOSTAP, flags=0x1
+wlan_vap_create : exit. devhandle=0x80c042c0, opmode=IEEE80211_M_HOSTAP, flags=0x1.
+VAP device ath0 created
+
+ DES SSID SET=TP-LINK_POCKET_3020_3ABB7A
+ieee80211_scan_unregister_event_handler: Failed to unregister evhandler=c0a048a0 arg=81e9e2c0
+wlan_vap_delete : enter. vaphandle=0x81e9c000
+wlan_vap_delete : exit. vaphandle=0x81e9c000
+wlan_vap_create : enter. devhandle=0x80c042c0, opmode=IEEE80211_M_HOSTAP, flags=0x1
+wlan_vap_create : exit. devhandle=0x80c042c0, opmode=IEEE80211_M_HOSTAP, flags=0x1.
+VAP device ath0 created
+
+ DES SSID SET=TP-LINK_POCKET_3020_3ABB7A
+ ieee80211_ioctl_siwmode: imr.ifm_active=393856, new mode=3, valid=1
+WARNING: Fragmentation with HT mode NOT ALLOWED!!
+device ath0 entered promiscuous mode
+br0: port 2(ath0) entering forwarding state
+ ieee80211_ioctl_siwmode: imr.ifm_active=1442432, new mode=3, valid=1
+br0: port 2(ath0) entering disabled state
+
+ DES SSID SET=TP-LINK_POCKET_3020_3ABB7A
+br0: port 2(ath0) entering forwarding state
+gpio_tricolor_led_write 699
+green_led_onoff = 1
+
+ TL-MR3020 mips #185 Fri Oct 21 16:26:50 CST 2011 (none)
+TL-MR3020 login:
+</pre>
+
+<p></p>
+
+</div>
+
+<h3><a name="openwrt.boot.log.and.info" id="openwrt.boot.log.and.info">OpenWrt Boot Log and Info</a></h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> <a href="https://gist.github.com/2059480#file_dmesg" class="urlextern" title="https://gist.github.com/2059480#file_dmesg" rel="nofollow">dmesg TP-Link TL-MR3020</a></div>
+</li>
+</ul>
+
+</div>
+
+<h2><a name="link.dump" id="link.dump">Link Dump</a></h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> Product web-page : <a href="http://www.tp-link.com/en/products/details/?model=TL-MR3020#fea" class="urlextern" title="http://www.tp-link.com/en/products/details/?model=TL-MR3020#fea" rel="nofollow">TL-MR3020</a></div>
+</li>
+<li class="level1"><div class="li"> The latest official firmware is available <a href="http://www.tp-link.com/en/support/download/?model=TL-MR3020" class="urlextern" title="http://www.tp-link.com/en/support/download/?model=TL-MR3020" rel="nofollow">here</a></div>
+</li>
+<li class="level1"><div class="li"> The official <acronym title="GNU General Public License">GPL</acronym> code is available <a href="http://www.tp-link.com/resources/gpl/150Router.tar" class="urlextern" title="http://www.tp-link.com/resources/gpl/150Router.tar" rel="nofollow">here</a>.</div>
+</li>
+<li class="level1"><div class="li"> A backup of the whole original SPI flash content is available from <a href="http://db.tt/Cp4F1EtX" class="urlextern" title="http://db.tt/Cp4F1EtX" rel="nofollow">here</a>.</div>
+</li>
+<li class="level1"><div class="li"> <a href="http://www.heise.de/netze/artikel/Taschenrouter-als-IPv6-Verteiler-1440851.html" class="urlextern" title="http://www.heise.de/netze/artikel/Taschenrouter-als-IPv6-Verteiler-1440851.html" rel="nofollow">Taschenrouter als IPv6-Verteiler (auf Deutsch)</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://apollo.open-resource.org/lab:argus" class="urlextern" title="https://apollo.open-resource.org/lab:argus" rel="nofollow">Interesting webpage with more data about power consumption and so on</a></div>
+</li>
+</ul>
+
+</div>
+
+<h3><a name="relevant.forum.links" id="relevant.forum.links">Relevant Forum Links</a></h3>
+<div class="level3">
+
+<p>
+<a href="https://forum.openwrt.org/viewtopic.php?id=33429" class="urlextern" title="https://forum.openwrt.org/viewtopic.php?id=33429" rel="nofollow">TP-Link TL-MR3020 Support</a> 
+</p>
+
+</div>
+
+<h2><a name="custom.ipv6.image.for.mr3020.v1.7" id="custom.ipv6.image.for.mr3020.v1.7">Custom IPv6 image for mr3020 (v1.7)</a></h2>
+<div class="level2">
+
+<p>
+
+A custom image with ipv6 support: radvd, wide-dhcpv6, 3g stick support, made for RCS-RDS Fiberlink dual stack PPPoE service,
+but should be okay for static wan settings on other ISPs:
+<a href="http://www.ip6.ro/firmware/mr3020/" class="urlextern" title="http://www.ip6.ro/firmware/mr3020/" rel="nofollow">http://www.ip6.ro/firmware/mr3020/</a>
+</p>
+
+</div>
+
+<h2><a name="tags" id="tags">Tags</a></h2>
+<div class="level2">
+<hr>
+
+<div class="tags"><span>
+	<a href="http://wiki.openwrt.org/tag/2011dec?do=showtag&amp;tag=2011Dec" class="wikilink1" title="tag:2011dec" rel="tag">2011Dec</a>,
+	<a href="http://wiki.openwrt.org/tag/fastethernet?do=showtag&amp;tag=FastEthernet" class="wikilink1" title="tag:fastethernet" rel="tag">FastEthernet</a>,
+	<a href="http://wiki.openwrt.org/tag/1nic?do=showtag&amp;tag=1NIC" class="wikilink1" title="tag:1nic" rel="tag">1NIC</a>,
+	<a href="http://wiki.openwrt.org/tag/1wnic?do=showtag&amp;tag=1WNIC" class="wikilink1" title="tag:1wnic" rel="tag">1WNIC</a>,
+	<a href="http://wiki.openwrt.org/tag/no_switch?do=showtag&amp;tag=no_switch" class="wikilink1" title="tag:no_switch" rel="tag">no switch</a>,
+	<a href="http://wiki.openwrt.org/tag/1ant?do=showtag&amp;tag=1Ant" class="wikilink1" title="tag:1ant" rel="tag">1Ant</a>,
+	<a href="http://wiki.openwrt.org/tag/usb2.0?do=showtag&amp;tag=USB2.0" class="wikilink1" title="tag:usb2.0" rel="tag">USB2.0</a>,
+	<a href="http://wiki.openwrt.org/tag/1usb?do=showtag&amp;tag=1USB" class="wikilink1" title="tag:1usb" rel="tag">1USB</a>,
+	<a href="http://wiki.openwrt.org/tag/serial?do=showtag&amp;tag=Serial" class="wikilink1" title="tag:serial" rel="tag">Serial</a>,
+	<a href="http://wiki.openwrt.org/tag/integrated?do=showtag&amp;tag=integrated" class="wikilink1" title="tag:integrated" rel="tag">integrated</a>,
+	<a href="http://wiki.openwrt.org/tag/802.11bgn?do=showtag&amp;tag=802.11bgn" class="wikilink1" title="tag:802.11bgn" rel="tag">802.11bgn</a>,
+	<a href="http://wiki.openwrt.org/tag/ar9331?do=showtag&amp;tag=AR9331" class="wikilink1" title="tag:ar9331" rel="tag">AR9331</a>,
+	<a href="http://wiki.openwrt.org/tag/ath9k?do=showtag&amp;tag=ath9k" class="wikilink1" title="tag:ath9k" rel="tag">ath9k</a>,
+	<a href="http://wiki.openwrt.org/tag/32ram?do=showtag&amp;tag=32RAM" class="wikilink1" title="tag:32ram" rel="tag">32RAM</a>,
+	<a href="http://wiki.openwrt.org/tag/4flash?do=showtag&amp;tag=4Flash" class="wikilink1" title="tag:4flash" rel="tag">4Flash</a>,
+	<a href="http://wiki.openwrt.org/tag/mips?do=showtag&amp;tag=MIPS" class="wikilink1" title="tag:mips" rel="tag">MIPS</a>,
+	<a href="http://wiki.openwrt.org/tag/mips32?do=showtag&amp;tag=MIPS32" class="wikilink1" title="tag:mips32" rel="tag">MIPS32</a>,
+	<a href="http://wiki.openwrt.org/tag/24kc?do=showtag&amp;tag=24Kc" class="wikilink1" title="tag:24kc" rel="tag">24Kc</a>,
+	<a href="http://wiki.openwrt.org/tag/ar7241?do=showtag&amp;tag=AR7241" class="wikilink1" title="tag:ar7241" rel="tag">AR7241</a>,
+	<a href="http://wiki.openwrt.org/tag/ap121?do=showtag&amp;tag=AP121" class="wikilink1" title="tag:ap121" rel="tag">AP121</a>,
+	<a href="http://wiki.openwrt.org/tag/portable_router?do=showtag&amp;tag=portable_router" class="wikilink1" title="tag:portable_router" rel="tag">portable router</a>
+</span></div>
+
+</div>
+
+		<!-- wikipage stop -->
+
+		<p class="top"><a href="#dokuwiki__top" class="action top" accesskey="x">Back to top</a></p>
+		<p class="pageinfo">toh/tp-link/tl-mr3020.txt · Last modified: 2014/04/24 15:17 by friedzombie</p>
+		<div class="license">
+		        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/88x31.png"></a>
+		        This text is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+		<p></p>
+	</div>
+
+	<!--<div id="tpl_simple_navi" align="right"></div>-->
+
+	
+        
+		</div>
+<div class="hidden"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/indexer.gif" alt="" height="1" width="1"></div>
+
+<div class="footer"><img src="TP-Link%20TL-MR3020%20-%20OpenWrt%20Wiki_files/indexer.gif" alt="" height="1" width="1"></div>
+
+
+</div></body></html>
